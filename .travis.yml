@@ -1,0 +1,5 @@
+services:
+  - docker
+
+script:
+  - docker build -t bmxmale/laravel-docker:7.0 . --no-cache
